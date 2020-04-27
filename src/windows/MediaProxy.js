@@ -31,7 +31,7 @@ var tempFolderAppDataBasePath = 'ms-appdata:///temp/',
     localFolderFullPath = Windows.Storage.ApplicationData.current.localFolder.path;
 
 var PARAMETER_IS_INCORRECT = -2147024809;
-var SUPPORTED_EXTENSIONS = ['.mp3', '.wma', '.wav', '.cda', '.adx', '.wm', '.m3u', '.wmx', '.m4a'];
+var SUPPORTED_EXTENSIONS = ['.flac', '.mp3', '.wma', '.wav', '.cda', '.adx', '.wm', '.m3u', '.wmx', '.m4a'];
 var SUPPORTED_PREFIXES = ['http', 'https', 'rstp'];
 
 var fsTypes = {
